@@ -1,38 +1,64 @@
+@font-face {
+  font-family: MonumentExtended;
+  src: url(./Fonts/MonumentExtendedRegular.otf);
+}
+@font-face {
+  font-family: Geometrix-regular;
+  src: url(./Fonts/GTWalsheimPro-Regular.woff);
+}
+@font-face {
+  font-family: Geometrix-medium;
+  src: url(./Fonts/GTWalsheimPro-Medium.woff);
+}
+.text-style1{
+  font-family: Geometrix-regular;
+  font-size: medium;
+  /* padding-right: 10em; */
+}
+.text-style{
+  font-family: Geometrix-regular;
+}
+.text-style2{
+  font-family: Geometrix-medium;
+  font-size: medium;
+}
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  max-width: 28rem;
+  margin: 0 auto;
+  padding: 2em;
+  border-radius: 1.2em;
+  height: 35em;
 }
-
-.App-link {
-  color: #61dafb;
+.border-type1{
+  border-right: #30e623;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.border-type2{
+  border-right: #ed1e1e;
+}
+.input-styles{
+  border: 0.08em solid  grey;
+  /* filter:drop-shadow(5px 5px 0px #888fe2) */
+}
+.button-styles{
+  border-radius: 0.5em;
+  border: 0.08em solid  grey;
+  box-shadow: 4px 4px 0px #8ee288;
+  background-color: rgb(255, 255, 255);
+}
+.button-styles:active{
+  box-shadow: 2px 2px 0px #4bb343;
+  transform: translateY(2px);
+}
+img{
+  width: 2em;
+  height: 2em;
+}
+li{
+  list-style: none;
+}
+.ul-style{
+  height: 17em;
+  overflow: scroll;
 }

@@ -1,0 +1,17 @@
+.row{
+    --bs-gutter-x: 0 rem;
+}
+.text-style-input{
+    font-family: Geometrix-regular;
+    text-align: left;
+    font-size: 0.83em;
+  }
+.btn{
+    background-color: rgb(160, 119, 234);
+    border-radius: 0.1em;
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(166, 100, 228);
+    color: white;
+}
